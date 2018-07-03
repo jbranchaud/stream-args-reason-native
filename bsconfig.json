@@ -1,0 +1,21 @@
+{
+  "name": "stream-args",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "entries": [
+    {
+      "backend": "bytecode",
+      "main-module": "Index",
+      "output-name": "stream-args"
+    },
+    {
+      "backend": "native",
+      "main-module": "Index",
+      "output-name": "stream-args"
+    }
+  ],
+  "refmt": 3
+}
